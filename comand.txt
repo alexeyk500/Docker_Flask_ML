@@ -6,16 +6,24 @@ docker exec -it new_flask_flask_1 bash
 
 http://0.0.0.0:5000/user/username
 
-echo "# Docker_Flask_ML" >> README.md
-git init
-git add README.md
 
+# Работа с github #######################################################
+1) Создать локальный репозиторий git
+git init
+
+2) Создать файл .gitignore 
+ и записать в него все папки и файлы которые мы не хотим хранить на git
+
+3) Добавить в локальный репозиторий все файлы кроме указанных в .gitignore 
+git add
+
+4) на сайте github.com создать новый репозиторий и скопировать команды для 
+записи локального репозитория на сайте
 git remote add origin https://github.com/alexeyk500/Docker_Flask_ML.git
 git push -u origin master
 
-# Совмещенная команда добавить изменения и закомитить их
-git commit –am “Название коммита”
+5) После внесения изменений в файлах проекта сохраняем их и командой 
+git commit –am “Название коммита5”
+индексируем изменения и добавляем к ним коммит
 
-1234 - тест отправки на git
-
-git push -u origin master
+6) Отправляем закомиченные изменения на сайт github.com

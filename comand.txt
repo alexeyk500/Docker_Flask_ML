@@ -1,0 +1,8 @@
+1) Пересобрать контейнер - Выполнив команду docker-compose up --build
+
+2) Заглушить запущенный контейнер docker-compose down
+
+docker exec -it new_flask_flask_1 bash
+
+http://0.0.0.0:5000/user/username
+

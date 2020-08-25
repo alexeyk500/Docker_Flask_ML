@@ -9,7 +9,7 @@ http://0.0.0.0:5000/user/username
 echo "# Docker_Flask_ML" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+
 git remote add origin https://github.com/alexeyk500/Docker_Flask_ML.git
 git push -u origin master
 
@@ -17,3 +17,5 @@ git push -u origin master
 git commit –am “Название коммита”
 
 1234 - тест отправки на git
+
+git push -u origin master
